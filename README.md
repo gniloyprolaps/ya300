@@ -124,7 +124,7 @@ from os import environ
 environ['YA300_SESSION_ID'] = '3:173323456.5.0.1724108495806:Y12iog:x21y.1.2:1|1141634570.0.2.3:1728003508|6:10200414.986812.uaRU96USIomXSkGPPOV1-Zov404'
 ```
 
-В консоли:
+в консоли:
 
 ```sh
 export YA300_SESSION_ID='3:173323456.5.0.1724108495806:Y12iog:x21y.1.2:1|1141634570.0.2.3:1728003508|6:10200414.986812.uaRU96USIomXSkGPPOV1-Zov404'
@@ -139,7 +139,7 @@ from os import environ
 environ['YA300_LOG_LEVEL'] = 'WARNING'
 ```
 
-В консоли:
+в консоли:
 
 ```sh
 export YA300_LOG_LEVEL=DEBUG
@@ -154,7 +154,7 @@ from os import environ
 environ['YA300_API_PORT'] = '8000'
 ```
 
-В консоли:
+в консоли:
 
 ```sh
 export YA300_API_PORT=8000
