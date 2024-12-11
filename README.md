@@ -89,6 +89,8 @@ CMD ["python", "-m", "prlps_ya300"]
 
 ##### через `curl`
 
+ВНИМАНИЕ: `session_id` можно оставить пустым, если на сервере в переменных окружения или секретах уже указан валидный `YA300_SESSION_ID`.
+
 ```sh
 curl -X GET "http://127.0.0.1:8000/summarize" -H "Content-Type: application/json" -d '{"url": "https://www.youtube.com/watch?v=mloZU0LW8aQ", "short": false, "session_id": "3:173323456.5.0.1724108495806:Y12iog:x21y.1.2:1|1141634570.0.2.3:1728003508|6:10200414.986812.uaRU96USIomXSkGPPOV1-Zov404"}'
 ```
